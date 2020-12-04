@@ -1,3 +1,5 @@
+#to build: docker build -t docker-nest-app
+#to run: docker run -p 3000:3000 docker-nest-app
 FROM node:12.13-alpine As development
 
 WORKDIR /usr/src/app
